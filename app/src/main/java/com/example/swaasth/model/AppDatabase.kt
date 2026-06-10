@@ -3,8 +3,8 @@ package com.example.swaasth.model
 import android.content.Context
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import androidx.room3.Database
-import androidx.room3.TypeConverters
+import androidx.room.Database
+import androidx.room.TypeConverters
 
 @Database(entities = [UserEntity::class], version = 1, exportSchema = false)
 @TypeConverters(Converters::class)
