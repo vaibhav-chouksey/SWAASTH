@@ -62,6 +62,7 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.7.4")
     //gradle
     implementation(libs.hilt.android)
+    implementation(libs.androidx.room3.common.jvm)
     ksp(libs.hilt.compiler)
     implementation(libs.hilt.navigation.compose)
     //room db
